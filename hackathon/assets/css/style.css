@@ -1,0 +1,172 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body{
+  background-image:url(/assets/images/white-concrete-wall.jpg);
+}
+
+.aboutHackathon{
+  width: 85%;
+  margin: 0 auto;
+}
+.about1{
+  height: 100vh;
+}
+.about2{
+  height: 80vh;
+}
+.aboutDef{
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.define{
+  width: fit-content;
+  font-size: 60px;
+}
+.hack-elite-k{
+  color: rgb(5, 173, 5);
+}
+.aboutP{
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-weight: 200;
+  max-width: 60%;
+}
+.ulHead{
+  margin-top: 40px;
+  font-size: 36px;
+}
+.aboutLi{
+  text-decoration: none;
+  list-style: none;
+  margin-bottom: 5px;
+}
+.aboutLi p{
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.aboutDive{
+  font-size: 36px;
+  padding-top: 20px;
+}
+
+
+
+
+/* ................................................  */
+            /* sponsor section  */
+/* ................................................  */
+
+.Sponsors{
+  width: 85%;
+  margin: 0 auto;
+}
+.Sintro{
+  font-size: 7vw;
+}
+.Sspon{
+  color: green;
+  text-shadow: 6px 0 rgb(247, 229, 74);
+  font-weight: bold;
+}
+
+
+.SlistContainer{
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-width: 70%;
+}
+
+.Slist{
+  width: 150px;
+  margin: 20px;
+}
+.SsponsorIcon{
+  width: 100%;
+  padding: 20px 40px;
+  background-color: rgb(196, 224, 224);
+  border-radius: 20px;
+  box-shadow: 0 8px green;
+}
+.SsponsorIcon:hover{
+  box-shadow: 0 12px rgb(238, 116, 16);
+}
+/* ................................................  */
+          /* sponsor section end  */
+/* ................................................  */
+
+
+
+/* ................................................  */
+          /* footer section  */
+/* ................................................  */
+
+footer{
+  width: 98%;
+  margin: 0 auto;
+  margin-top: 200px;
+  margin-bottom: 10px;
+  /* background-color: rgb(158, 171, 182); */
+  background-image: url(/assets/images/paperB.webp);
+  background-size: cover;
+  border-radius: 0 0 20px 20px;
+}
+.footerContainer{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footerIcons{
+  width: 40%;
+  border-radius: 20px 0 0 20px;
+  min-width: 200px;
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footerContact{
+  width: 60%;
+  padding: 20px;
+  border-radius: 0 20px 20px 0;
+  min-width: 200px;
+  max-width: 500px;
+
+}
+.footerP{
+  color: white;
+  font-size: 16px;
+}
+.footerSicon{
+  color: white;
+}
+.footerSicon:hover{
+  color: green;
+}
+.footerSring{
+  border-radius: 999px;
+  border: 2px solid white;
+  padding: 18px;
+  height: fit-content;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+.footerSring:hover{
+  border: 2px solid green;
+  color: green;
+
+}
+/* ................................................  */
+              /* footer section end  */
+/* ................................................  */
+
+
